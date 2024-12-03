@@ -12,7 +12,7 @@ public class Grades {
         this.size++;
     }
     int lastElement = Grades[grades.lenght - 1];
-    System.out.println["Last grade added: " + lastElement);
+    System.out.println("Last grade added: " + lastElement);
 }
 average = ( count > 0) ? sum / count : 0'
         System.out.println("Average grade id: " + average);
