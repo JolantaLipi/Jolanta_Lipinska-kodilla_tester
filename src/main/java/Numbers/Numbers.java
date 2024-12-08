@@ -8,7 +8,7 @@ public class Numbers {
         int sum =0;
         Random random = new Random();
         while (sum < 5000) {
-            int number = random.nextInt( bound:31);
+            int number = random.nextInt(bound:31);
             sum += number;
             if (number > maximum)
                 maximum = number;
