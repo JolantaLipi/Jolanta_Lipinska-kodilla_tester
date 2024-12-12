@@ -12,6 +12,11 @@ public class Book {
     public static Book createBook(String title, String author) {
         return new Book(title, author);
     }
+
+    public static Book of(String IsaacAsimov, String theGalaxy) {
+        return null;
+    }
+
     public String getTitle() {
         return title;
     }
