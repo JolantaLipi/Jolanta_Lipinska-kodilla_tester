@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd1bc43-3e60-41db-815d-1dd9027a448b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ColorDialogs/ColorDialogs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ColorDialogs/getColorName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Grades/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Grades/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Grades/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Grades/Grades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Notebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Numbers/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Numbers/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Numbers/randomNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Numbers/randomNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,6 @@
 }</component>
   <component name="ProjectId" id="2pvjdoik9t6F6o8MZzbcgvaaBQp" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -65,22 +67,36 @@
     "Gradle.kodilla-course [:Colors.App.main()].executor": "Run",
     "Gradle.kodilla-course [:FirstClass.main()].executor": "Run",
     "Gradle.kodilla-course [:Users.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.inheritence.homework.Appl.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/kodilla-basic-tests/src/main/java/com/kodilla/Main.java",
     "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Appl">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colors.App" />
       <module name="kodilla-course.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Colors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Appl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.inheritence.homework.Appl" />
+      <module name="kodilla-course.kodilla-basic-tests.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.inheritence.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,21 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Users" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Users" />
-      <module name="kodilla-course.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Appl" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.ColorSelector" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Users" />
       </list>
     </recent_temporary>
   </component>
