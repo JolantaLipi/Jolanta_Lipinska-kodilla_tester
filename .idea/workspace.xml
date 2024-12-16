@@ -56,6 +56,7 @@
     "Gradle.kodilla-course [:FirstClass.main()].executor": "Run",
     "Gradle.kodilla-course [:Users.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.abstracts.homework.Application.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.basic_assertion.Application.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.inheritence.homework.Appl.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -71,7 +72,7 @@
       <recent name="com.kodilla.abstracts.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.kodilla.abstracts.homework.Application">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colors.App" />
       <module name="kodilla-course.main" />
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColorSelector.ColorSelector" />
-      <module name="kodilla-course.main" />
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.basic_assertion.Application" />
+      <module name="kodilla-course.kodilla-basic-tests.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ColorDialogs.*" />
+          <option name="PATTERN" value="com.kodilla.basic_assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book.Library" />
+    <configuration name="ColorSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColorSelector.ColorSelector" />
       <module name="kodilla-course.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book.*" />
+          <option name="PATTERN" value="ColorDialogs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.com.kodilla.abstracts.homework.Application" />
         <item itemvalue="Application.Appl" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.ColorSelector" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
