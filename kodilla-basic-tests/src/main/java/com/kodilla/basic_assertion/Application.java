@@ -13,8 +13,9 @@ public class Application {
             System.out.println("Metoda subtract działa poprawnie dla liczb " + a + " i " + b);
         } else {
             System.out.println("Metoda subtract nie działa poprawnie dla liczb " + a + " i " + b);
-}       int powResult = calculator.power(a);
-         correct = ResultChecker.assertEquals(25,   powerResult);
+}
+        int powResult = calculator.power(a);
+        correct = ResultChecker.assertEquals(25, powerResult);
         if (correct) {
             System.out.println("Metoda power działa poprawnie dla liczb " + a ");
         } else {
