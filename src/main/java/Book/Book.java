@@ -12,9 +12,8 @@ public class Book {
     public static Book createBook(String title, String author) {
         return new Book(title, author);
     }
-
-    public static Book of(String IsaacAsimov, String theGalaxy) {
-        return null;
+    public static Book of(String author, String title) {
+        return new Book(author, title);
     }
 
     public String getTitle() {
