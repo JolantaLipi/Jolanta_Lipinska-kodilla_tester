@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd1bc43-3e60-41db-815d-1dd9027a448b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +55,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -68,6 +70,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.ApplicationTestSuite.executor": "Run",
+    "Gradle.ApplicationTestSuite.testPow.executor": "Run",
     "Gradle.kodilla-course [:Application.Application.main()].executor": "Run",
     "Gradle.kodilla-course [:Book.Library.main()].executor": "Run",
     "Gradle.kodilla-course [:Calculator.CalcApplication.main()].executor": "Run",
@@ -75,30 +78,40 @@
     "Gradle.kodilla-course [:Colors.App.main()].executor": "Run",
     "Gradle.kodilla-course [:FirstClass.main()].executor": "Run",
     "Gradle.kodilla-course [:Users.main()].executor": "Run",
+    "Gradle.kodilla-course:Workshop [:Workshop:com.kodilla.FirstClass.main()].executor": "Run",
+    "Gradle.kodilla-course:Workshop [:Workshop:com.kodilla.Main.main()].executor": "Debug",
     "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.abstracts.homework.Application.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.bank.homework.BankTestSuite.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.basic_assertion.Application.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.inheritence.homework.Appl.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.interfaces.InterfacesDemo.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.interfaces.homework.CarRace.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/kodilla-basic-tests/src/main/java/com/kodilla/Main.java",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
+    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/Workshop/src/main/java/com/kodilla/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Perforce"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.collections.interfaces.homework" />
+      <recent name="com.kodilla.collections.interfaces" />
       <recent name="com.kodilla.abstracts.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colors.App" />
-      <module name="kodilla-course.main" />
+  <component name="RunManager" selected="Application.BankTestSuite">
+    <configuration name="BankTestSuite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.bank.homework.BankTestSuite" />
+      <module name="kodilla-course.kodilla-basic-tests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Colors.*" />
+          <option name="PATTERN" value="com.kodilla.bank.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Appl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.inheritence.homework.Appl" />
-      <module name="kodilla-course.kodilla-basic-tests.main" />
+    <configuration name="CarRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.interfaces.homework.CarRace" />
+      <module name="kodilla-course.kodilla-collections.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.inheritence.homework.*" />
+          <option name="PATTERN" value="com.kodilla.collections.interfaces.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.basic_assertion.Application" />
-      <module name="kodilla-course.kodilla-basic-tests.main" />
+    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.FirstClass" />
+      <module name="kodilla-course.Workshop.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.basic_assertion.*" />
+          <option name="PATTERN" value="com.kodilla.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kodilla.abstracts.homework.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.abstracts.homework.Application" />
-      <module name="kodilla-course.kodilla-basic-tests.main" />
+    <configuration name="InterfacesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.interfaces.InterfacesDemo" />
+      <module name="kodilla-course.kodilla-collections.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.abstracts.homework.*" />
+          <option name="PATTERN" value="com.kodilla.collections.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,37 +158,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-basic-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.basic_assertion.ApplicationTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Main" />
+      <module name="kodilla-course.Workshop.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ApplicationTestSuite" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.com.kodilla.abstracts.homework.Application" />
-        <item itemvalue="Application.Appl" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.BankTestSuite" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FirstClass" />
+        <item itemvalue="Application.CarRace" />
+        <item itemvalue="Application.InterfacesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +199,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/kodilla/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Workshop/src/main/java/com/kodilla/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Workshop/src/main/java/com/kodilla/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
