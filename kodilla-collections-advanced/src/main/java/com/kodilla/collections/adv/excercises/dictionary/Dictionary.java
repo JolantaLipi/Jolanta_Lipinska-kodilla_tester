@@ -13,4 +13,7 @@ public class Dictionary {
     public List<EnglishWord> findEnglishWords(String polishWord, PartOfSpeech partOfSpeech) {
         return Collections.emptyList();
     }
+    public int size() {
+        return dictionary.size();
+    }
 }
