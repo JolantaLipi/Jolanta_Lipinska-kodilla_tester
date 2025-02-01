@@ -10,6 +10,8 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 
 class BookControllerTest {
 
@@ -30,12 +32,15 @@ class BookControllerTest {
         assertThat(result).hasSize(2);
     }
     @Test
-    void shouldAddBooks() {
+    void shouldAddBook() {
         //given
+        BookService bookServiceMock = Mockito.mock(BookService.class);
+        BookController bookController = new BookController(bookServiceMock);
+        BookDto bookToAdd = new BookDto("Title 1", "Author 1");
 
         //when
-
+        bookController.addBook(bookToAdd);
         //then
-        assertEquals("Book added", result);
+        verify(bookServiceMock, times(1)).addBook(bookToAdd);
     }
 }

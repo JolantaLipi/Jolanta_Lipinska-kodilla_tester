@@ -40,4 +40,3 @@ public class BookControllerMvcTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$", Matchers.hasSize(2)));
     }
     }
-}
