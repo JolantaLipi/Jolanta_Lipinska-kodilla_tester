@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd1bc43-3e60-41db-815d-1dd9027a448b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +79,7 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.ApplicationTestSuite.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.ApplicationTestSuite.testPow.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BookControllerTest.shouldAddBook.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.BookControllerTest.shouldFetchBooks.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.DictionaryTestSuite.testAddWord.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.kodilla-course [:Application.Application.main()].executor&quot;: &quot;Run&quot;,
@@ -129,7 +134,7 @@
       <recent name="com.kodilla.collections.adv.excercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BookControllerTest.shouldFetchBooks">
+  <component name="RunManager" selected="Gradle.BookControllerTest.shouldAddBook">
     <configuration name="KodillaRestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.rest.KodillaRestApiApplication" />
       <module name="kodilla-course.kodilla-collections-advanced.main" />
@@ -156,18 +161,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.sets.homework.StampApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.sets.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="BookControllerTest.shouldAddBook" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-rest-api:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.rest.controller.BookControllerTest.shouldAddBook&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="BookControllerTest.shouldFetchBooks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -219,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BookControllerTest.shouldAddBook" />
         <item itemvalue="Gradle.BookControllerTest.shouldFetchBooks" />
         <item itemvalue="Application.KodillaRestApiApplication" />
         <item itemvalue="Gradle.DictionaryTestSuite.testAddWord" />
         <item itemvalue="Application.SchoolDirectory" />
-        <item itemvalue="Application.StampApplication" />
       </list>
     </recent_temporary>
   </component>

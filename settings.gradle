@@ -4,4 +4,5 @@ include 'kodilla-collections'
 include 'Workshop'
 include 'kodilla-collections-advanced'
 include 'kodilla-rest-api'
+include 'kodilla-stream'
 
