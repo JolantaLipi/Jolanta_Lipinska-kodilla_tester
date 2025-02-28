@@ -14,14 +14,6 @@ public class User {
         this.numberOfPost = numberOfPost;
         this.group = group;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return age == user.age && numberOfPost == user.numberOfPost && Objects.equals(username, user.username) && Objects.equals(group, user.group);
-    }
-
     @Override
     public int hashCode() {
         return Objects.hash(username, age, numberOfPost, group);
@@ -42,4 +34,5 @@ public class User {
     public String getGroup() {
         return group;
     }
+}
 }
