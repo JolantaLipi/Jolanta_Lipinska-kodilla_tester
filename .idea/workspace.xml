@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd1bc43-3e60-41db-815d-1dd9027a448b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +85,7 @@
     "Gradle.DictionaryTestSuite.testAddWord.executor": "Run",
     "Gradle.InvoiceTestSuite.executor": "Run",
     "Gradle.NumberCheckerTestSuite.executor": "Run",
+    "Gradle.ShopTest.executor": "Run",
     "Gradle.StringManipulatorTestSuite.executor": "Run",
     "Gradle.UserValidatorTest.executor": "Run",
     "Gradle.UserValidatorTest.shouldReturnTrueForValidUsernames.executor": "Run",
@@ -115,7 +118,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/kodilla-advanced-tests/src/main/java/com/kodilla/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/kodilla-spring-basic/src/main/java/com/kodilla/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -129,24 +132,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.mockito.notification" />
       <recent name="com.kodilla.rest" />
       <recent name="com.kodilla.rest.controller" />
       <recent name="com.kodilla.collections.adv.maps.homework" />
       <recent name="com.kodilla.collections.interfaces.homework" />
-      <recent name="com.kodilla.collections.interfaces" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.mockito.homework" />
+      <recent name="com.kodilla.mockito" />
+      <recent name="com.kodilla.execution_model.homework" />
       <recent name="com.kodilla.execution_model" />
       <recent name="com.kodilla.parametrized_tests.homework" />
-      <recent name="com.kodilla.parametrized_tests" />
-      <recent name="com.kodilla.exception.homework" />
-      <recent name="com.kodilla.stream.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InvoiceTestSuite">
+  <component name="RunManager" selected="Gradle.ShopTest">
     <configuration name="InvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,7 +174,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="NumberCheckerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,7 +187,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.NumberCheckerTestSuite&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.ShopTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -269,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShopTest" />
         <item itemvalue="Gradle.InvoiceTestSuite" />
         <item itemvalue="Gradle.StringManipulatorTestSuite" />
         <item itemvalue="Gradle.UserValidatorTest" />
         <item itemvalue="Gradle.UserValidatorTest.shouldReturnTrueForValidUsernames" />
-        <item itemvalue="Gradle.NumberCheckerTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +318,11 @@
           <url>file://$PROJECT_DIR$/kodilla-rest-api/src/main/java/com/kodilla/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
