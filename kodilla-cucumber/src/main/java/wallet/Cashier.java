@@ -1,5 +1,3 @@
-package wallet;
-
 public class Cashier {
     private final CashSlot cashSlot;
 
@@ -7,7 +5,11 @@ public class Cashier {
         this.cashSlot = cashSlot;
     }
 
-    public void withdraw(Wallet wallet, int amount) {
-        cashSlot.dispense(amount);
+    public boolean withdraw(Wallet wallet, int amount) {
+        if (wallet.withdraw(amount)) {
+            cashSlot.dispenseCash(amount);
+            return true;
+        }
+        return false;
     }
 }
