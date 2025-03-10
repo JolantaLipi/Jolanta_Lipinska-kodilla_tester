@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd1bc43-3e60-41db-815d-1dd9027a448b" name="Changes" comment="" />
+    <list default="true" id="3dd1bc43-3e60-41db-815d-1dd9027a448b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +30,39 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/kodilla-cucumber">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="kodilla-course" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+                <item name="kodilla-cucumber" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+                <item name="kodilla-cucumber" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+                <item name="kodilla-cucumber" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+                <item name="kodilla-cucumber" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -69,61 +100,62 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ApplicationTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ApplicationTestSuite.testPow.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BookControllerTest.shouldAddBook.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BookControllerTest.shouldFetchBooks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build kodilla-course.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DictionaryTestSuite.testAddWord.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.InvoiceTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.NumberCheckerTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ShopTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.StringManipulatorTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserValidatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserValidatorTest.shouldReturnTrueForValidUsernames.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:Application.Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:Book.Library.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:Calculator.CalcApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:ColorSelector.ColorSelector.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:Colors.App.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:FirstClass.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course [:Users.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:Workshop [:Workshop:com.kodilla.FirstClass.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:Workshop [:Workshop:com.kodilla.Main.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.abstracts.homework.Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.bank.homework.BankTestSuite.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.basic_assertion.Application.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.inheritence.homework.Appl.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.arrays.homework.CarsApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.interfaces.InterfacesDemo.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.interfaces.homework.CarRace.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.lists.homework.CarsListApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.sets.homework.StampApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections-advanced [:kodilla-collections-advanced:com.kodilla.collections.adv.maps.homework.SchoolDirectory.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections-advanced [:kodilla-collections-advanced:com.kodilla.rest.KodillaRestApiApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-collections-advanced [:kodilla-collections-advanced:com.kodilla.rest.controller.KodillaRestApiApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:com.kodilla.stream.UsersManager.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gwiaz/IdeaProjects/kodilla-course/kodilla-spring-basic/src/main/java/com/kodilla/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Perforce&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ApplicationTestSuite.executor": "Run",
+    "Gradle.ApplicationTestSuite.testPow.executor": "Run",
+    "Gradle.BookControllerTest.shouldAddBook.executor": "Run",
+    "Gradle.BookControllerTest.shouldFetchBooks.executor": "Run",
+    "Gradle.Build kodilla-course.executor": "Run",
+    "Gradle.DictionaryTestSuite.testAddWord.executor": "Run",
+    "Gradle.InvoiceTestSuite.executor": "Run",
+    "Gradle.NumberCheckerTestSuite.executor": "Run",
+    "Gradle.ShopTest.executor": "Run",
+    "Gradle.StringManipulatorTestSuite.executor": "Run",
+    "Gradle.TestRunner.executor": "Run",
+    "Gradle.UserValidatorTest.executor": "Run",
+    "Gradle.UserValidatorTest.shouldReturnTrueForValidUsernames.executor": "Run",
+    "Gradle.kodilla-course [:Application.Application.main()].executor": "Run",
+    "Gradle.kodilla-course [:Book.Library.main()].executor": "Run",
+    "Gradle.kodilla-course [:Calculator.CalcApplication.main()].executor": "Run",
+    "Gradle.kodilla-course [:ColorSelector.ColorSelector.main()].executor": "Run",
+    "Gradle.kodilla-course [:Colors.App.main()].executor": "Run",
+    "Gradle.kodilla-course [:FirstClass.main()].executor": "Run",
+    "Gradle.kodilla-course [:Users.main()].executor": "Run",
+    "Gradle.kodilla-course:Workshop [:Workshop:com.kodilla.FirstClass.main()].executor": "Run",
+    "Gradle.kodilla-course:Workshop [:Workshop:com.kodilla.Main.main()].executor": "Debug",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.abstracts.homework.Application.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.bank.homework.BankTestSuite.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.basic_assertion.Application.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-basic-tests [:kodilla-basic-tests:com.kodilla.inheritence.homework.Appl.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.arrays.homework.CarsApplication.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.interfaces.InterfacesDemo.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.interfaces.homework.CarRace.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.lists.homework.CarsListApplication.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections [:kodilla-collections:com.kodilla.collections.sets.homework.StampApplication.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections-advanced [:kodilla-collections-advanced:com.kodilla.collections.adv.maps.homework.SchoolDirectory.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections-advanced [:kodilla-collections-advanced:com.kodilla.rest.KodillaRestApiApplication.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-collections-advanced [:kodilla-collections-advanced:com.kodilla.rest.controller.KodillaRestApiApplication.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:com.kodilla.stream.UsersManager.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/gwiaz/IdeaProjects/kodilla-course/kodilla-cucumber/src/main/java/com/kodilla/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Perforce"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;csv&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "csv"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kodilla.mockito.notification" />
@@ -143,7 +175,7 @@
       <recent name="com.kodilla.execution_model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ShopTest">
+  <component name="RunManager" selected="Gradle.TestRunner">
     <configuration name="InvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,6 +248,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TestRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-cucumber:cucumber" />
+            <option value="--tests" />
+            <option value="&quot;TestRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="UserValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -240,37 +296,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTest.shouldReturnTrueForValidUsernames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTest.shouldReturnTrueForValidUsernames&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestRunner" />
         <item itemvalue="Gradle.ShopTest" />
         <item itemvalue="Gradle.InvoiceTestSuite" />
         <item itemvalue="Gradle.StringManipulatorTestSuite" />
         <item itemvalue="Gradle.UserValidatorTest" />
-        <item itemvalue="Gradle.UserValidatorTest.shouldReturnTrueForValidUsernames" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +349,11 @@
           <url>file://$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-cucumber/src/main/java/com/kodilla/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
